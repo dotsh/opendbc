@@ -40,9 +40,9 @@ BO_ 2034 NEW_MSG_1: 8 XXX
 
 BO_ 773 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_4 : 40|16@1- (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_2 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ stearing_angle_01 : 7|16@0- (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 7|17@0- (1,0) [0|15] "" XXX
 
 BO_ 973 controls: 8 XXX
  SG_ brake_pedal : 47|16@0- (1,0) [0|255] "" XXX
@@ -50,9 +50,10 @@ BO_ 973 controls: 8 XXX
  SG_ lateral_accel : 15|8@0- (1,0) [0|65535] "" XXX
  SG_ stearing_angle : 23|16@0- (1,0) [0|65535] "" XXX
 
-BO_ 520 NEW_MSG_4: 8 XXX
- SG_ NEW_SIGNAL_2 : 7|16@0+ (1,0) [0|8388607] "" XXX
- SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|65535] "" XXX
+BO_ 520 engine: 8 XXX
+ SG_ engine_rpm02 : 7|16@0+ (1,0) [0|8388607] "" XXX
+ SG_ throttle02 : 63|8@0+ (1,0) [0|255] "" XXX
+ SG_ throttle : 23|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 1101 wheels_speed: 8 XXX
  SG_ vitesse_roue_droite : 39|16@0+ (1,0) [0|65535] "" XXX
@@ -67,18 +68,19 @@ BO_ 1037 distance: 8 XXX
  SG_ NEW_SIGNAL_2 : 7|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 845 NEW_MSG_3: 8 XXX
+ SG_ NEW_SIGNAL_1 : 43|4@0- (1,0) [0|15] "" XXX
 
 BO_ 840 torque: 8 XXX
  SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ maybe_torque : 15|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 909 engine: 8 XXX
- SG_ vitesse_01 : 7|16@0+ (1,0) [0|65535] "" XXX
  SG_ distance_01 : 23|16@0+ (1,0) [0|65535] "" XXX
  SG_ engine_rpm : 39|8@0+ (1,0) [0|65535] "" XXX
+ SG_ vitesse_01 : 7|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 1105 NEW_MSG_6: 8 XXX
- SG_ unknown : 32|16@1- (1,0) [0|65535] "" XXX
+ SG_ maybe_suspension : 33|10@0- (1,0) [0|65535] "" XXX
 
 BO_ 1293 NEW_MSG_5: 8 XXX
  SG_ distance_02 : 15|16@0+ (1,0) [0|65535] "" XXX
