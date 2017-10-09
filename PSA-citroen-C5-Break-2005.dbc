@@ -39,16 +39,16 @@ BU_: XXX
 BO_ 2034 NEW_MSG_1: 8 XXX
 
 BO_ 773 NEW_MSG_2: 8 XXX
- SG_ NEW_SIGNAL_3 : 15|4@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1 : 8|4@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_4 : 40|4@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_2 : 32|4@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 40|16@1- (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_2 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 7|17@0- (1,0) [0|15] "" XXX
 
-BO_ 973 NEW_MSG_3: 8 XXX
+BO_ 973 controls: 8 XXX
  SG_ brake_pedal : 47|16@0- (1,0) [0|255] "" XXX
  SG_ brake_light : 38|1@0+ (1,0) [0|3] "" XXX
- SG_ stearing_angle : 23|16@0- (1,0) [0|65535] "" XXX
  SG_ lateral_accel : 15|8@0- (1,0) [0|65535] "" XXX
+ SG_ stearing_angle : 23|16@0- (1,0) [0|65535] "" XXX
 
 BO_ 520 NEW_MSG_4: 8 XXX
  SG_ NEW_SIGNAL_2 : 7|16@0+ (1,0) [0|8388607] "" XXX
@@ -59,3 +59,15 @@ BO_ 1101 wheels_speed: 8 XXX
  SG_ vitesse_roue_gauche : 23|16@0+ (1,0) [0|65535] "" XXX
  SG_ vitesse_roue1 : 7|16@0+ (1,0) [0|65535] "" XXX
  SG_ vitesse_roue2 : 55|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 1037 distance: 8 XXX
+ SG_ NEW_SIGNAL_2 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_3 : 39|16@0- (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_4 : 55|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 845 NEW_MSG_3: 8 XXX
+
+BO_ 840 NEW_MSG_5: 8 XXX
+ SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
