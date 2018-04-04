@@ -33,22 +33,22 @@ NS_ :
 
 BS_:
 
-BU_: XXX
+BU_: XXX 8
 
 
 BO_ 2034 NEW_MSG_1: 8 XXX
 
 BO_ 773 NEW_MSG_2: 8 XXX
- SG_ NEW_SIGNAL_4 : 40|16@1- (1,0) [0|15] "" XXX
- SG_ stearing_angle_01 : 7|16@0- (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|65535] "" XXX
+ SG_ stearing_angle : 7|16@0- (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ steering_something : 40|16@1- (1,0) [0|15] "" XXX
 
 BO_ 973 controls: 8 XXX
  SG_ brake_pedal : 47|16@0- (1,0) [0|255] "" XXX
  SG_ brake_light : 38|1@0+ (1,0) [0|3] "" XXX
  SG_ lateral_accel : 15|8@0- (1,0) [0|65535] "" XXX
- SG_ stearing_angle : 23|16@0- (1,0) [0|65535] "" XXX
+ SG_ direction_something : 23|16@0- (1,0) [0|65535] "" XXX
 
 BO_ 520 engine: 8 XXX
  SG_ engine_rpm02 : 7|16@0+ (1,0) [0|8388607] "" XXX
@@ -72,7 +72,7 @@ BO_ 845 NEW_MSG_3: 8 XXX
 
 BO_ 840 torque: 8 XXX
  SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
- SG_ trottle pedal : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ t : NaN|NaN@0+ (NaN,NaN) [1|5] "," 8
 
 BO_ 909 engine: 8 XXX
  SG_ distance_01 : 23|16@0+ (1,0) [0|65535] "" XXX
