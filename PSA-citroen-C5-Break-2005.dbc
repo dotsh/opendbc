@@ -72,7 +72,7 @@ BO_ 845 NEW_MSG_3: 8 XXX
 
 BO_ 840 torque: 8 XXX
  SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
- SG_ maybe_torque : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ trottle pedal : 15|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 909 engine: 8 XXX
  SG_ distance_01 : 23|16@0+ (1,0) [0|65535] "" XXX
