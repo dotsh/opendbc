@@ -38,22 +38,22 @@ BU_: XXX 8
 
 BO_ 2034 NEW_MSG_1: 8 XXX
 
-BO_ 773 NEW_MSG_2: 8 XXX
- SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|65535] "" XXX
+BO_ 773 steering: 8 XXX
+ SG_ NEW_SIGNAL_2 : 35|4@0+ (1,0) [0|65535] "" XXX
  SG_ stearing_angle : 7|16@0- (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ steering_something : 40|16@1- (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 973 controls: 8 XXX
  SG_ brake_pedal : 47|16@0- (1,0) [0|255] "" XXX
- SG_ brake_light : 38|1@0+ (1,0) [0|3] "" XXX
  SG_ lateral_accel : 15|8@0- (1,0) [0|65535] "" XXX
  SG_ direction_something : 23|16@0- (1,0) [0|65535] "" XXX
+ SG_ brake_light : 38|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 520 engine: 8 XXX
  SG_ engine_rpm02 : 7|16@0+ (1,0) [0|8388607] "" XXX
  SG_ throttle02 : 63|8@0+ (1,0) [0|255] "" XXX
- SG_ throttle : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ torque : 23|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 1101 wheels_speed: 8 XXX
  SG_ vitesse_roue_droite : 39|16@0+ (1,0) [0|65535] "" XXX
@@ -65,14 +65,13 @@ BO_ 1037 distance: 8 XXX
  SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 39|16@0- (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_4 : 55|16@0+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_2 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 14|6@0+ (1,0) [0|65535] "" XXX
 
 BO_ 845 NEW_MSG_3: 8 XXX
  SG_ NEW_SIGNAL_1 : 43|4@0- (1,0) [0|15] "" XXX
 
 BO_ 840 torque: 8 XXX
  SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
- SG_ t : NaN|NaN@0+ (NaN,NaN) [1|5] "," 8
 
 BO_ 909 engine: 8 XXX
  SG_ distance_01 : 23|16@0+ (1,0) [0|65535] "" XXX
@@ -93,4 +92,18 @@ BO_ 1160 NEW_MSG_8: 8 XXX
  SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 1074 NEW_MSG_9: 8 XXX
- SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 1362 NEW_MSG_2: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|20@0+ (1,0) [0|15] "" XXX
+
+BO_ 1294 NEW_MSG_4: 8 XXX
+ SG_ NEW_SIGNAL_1 : 63|7@0+ (1,0) [0|127] "" XXX
+
+BO_ 1554 signalisation: 8 XXX
+ SG_ clignotant_gauche : 15|1@0+ (1,0) [0|3] "" XXX
+ SG_ clignotant_droit : 14|1@0+ (1,0) [0|3] "" XXX
+ SG_ feu_position : 8|1@1+ (1,0) [0|3] "" XXX
+ SG_ feu_croisement : 9|1@1+ (1,0) [0|3] "" XXX
+ SG_ feu_route : 10|1@1+ (1,0) [0|3] "" XXX
+ SG_ antibrouillard_avant : 11|1@0+ (1,0) [0|3] "" XXX
